@@ -1,0 +1,41 @@
+{
+  "total_concepts": 252,
+  "verified_ingredient_mappings": 252,
+  "unmapped_concepts": 0,
+  "ambiguous_concepts": 0,
+  "unsupported_concepts": 0,
+  "distinct_active_ingredients": 161,
+  "brand_concepts": 187,
+  "generic_concepts": 65,
+  "combination_products": 29,
+  "single_ingredient_products": 223,
+  "therapeutic_categories": {
+    "Cardiovascular & Antihypertensives": 59,
+    "Central Nervous System & Psychotropics": 39,
+    "Analgesics, NSAIDs & Antipyretics": 32,
+    "Antimicrobials & Antibiotics": 28,
+    "Respiratory & Allergy": 22,
+    "Endocrine & Diabetes": 21,
+    "Gastrointestinal Agents": 17,
+    "Anticoagulants & Antiplatelets": 13,
+    "Corticosteroids & Immunosuppressants": 9,
+    "Musculoskeletal & Others": 7,
+    "Urological & Others": 5
+  },
+  "source_authority": "U.S. National Library of Medicine (NLM / NIH) \u2014 RxNorm",
+  "source_url": "https://rxnav.nlm.nih.gov/REST",
+  "interaction_engine_rules_count": 39,
+  "interaction_engine_note": "Medication catalog coverage (drug concepts & active ingredient graphs) is distinct from interaction-database coverage. A mapped drug in the catalogue does not imply that all clinical interactions are known or monitored.",
+  "generated_at": "2026-10-25T09:14:41.526142+00:00",
+  "validation": {
+    "all_passed": true,
+    "node_count": 413,
+    "edge_count": 285,
+    "checks": {
+      "Bayer Aspirin mapped": "PASS",
+      "Advil mapped": "PASS",
+      "Augmentin combination verified": "PASS",
+      "Excedrin multi-ingredient verified": "PASS"
+    }
+  }
+}

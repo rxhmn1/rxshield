@@ -1,0 +1,53 @@
+# ── Python environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Python cache & compiled files ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ── Secrets & environment variables ──────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.bak
+*.tmp
+
+# ── Streamlit local config & secrets ──────────────────────────────────────────
+.streamlit/secrets.toml
+!.streamlit/secrets.example.toml
+
+# ── OS-generated files ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor/IDE folders ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Generated / build artefacts ──────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ── Logs & databases (will be used in later stages) ──────────────────────────
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Testing & scratch artefacts ──────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+scratch/
+.rxshield_cache/
+user_profiles.json
+
